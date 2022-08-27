@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    max-width: 1400px;
+   background-image: url(/assets/pic.webp);
+   background-repeat: no-repeat;
+   background-size:cover;
+   
+    
+}
+
+.container{
+    margin-top: 50px ;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+.nav{
+    display: flex;
+    
+}
+
+
+.navbar{
+    display:flex ;
+    align-items: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    margin-left: 400px;
+    color: #fff;
+    font-weight: 700;
+}
+.navitems{
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+.navitem{
+    list-style: none;
+    margin-left: 40px;
+
+}
+.phoneicon{
+    width: 50px;
+    margin-top: -20px;
+}
+
+.heading{
+    margin: 200px 0;
+    display: flex;
+}
+.heading-description{
+    color: rgb(9, 9, 9);
+    font-size: 40px;
+    float: left;
+}
+.gamebox{
+    float: right;
+    width: auto;
+   
+    margin-left: 200px; 
+    margin-top: -100px;
+   background-color: rgba(255, 255, 255, 0.25);
+
+   
+    
+}
+
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: solid 2px #fff;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+p{
+    color: #fff;
+}
+
+.second{
+    display: flex;
+    
+    
+}
+.btn-box{
+    margin-left: 500px;
+    margin-top: -100px;
+    background-color: rgba(255, 255, 255, 0.25);
+  
+  border:  rgba(255, 255, 255, 0.25);  
+    
+    
+}
+
+p{
+    color: #fff;
+    font-weight: 800;
+    
+}
+
+@media (max-width:480px){
+    body{
+        max-width: none;
+       background-repeat: repeat;
+       background-size:cover;  
+    }
+   
+    .container{
+        margin-top: 20px ;
+        margin-left: 20px;
+        margin-right: 0px;
+        
+    }
+   
+    .navitems{
+        display: flex;
+        margin-left: -550px;
+        margin-top: 50px;
+       
+        
+    }
+    .phoneicon{
+        display: none;
+    }
+    .navitem{
+        list-style: none;
+        margin-left: 10px;
+        font-size: 15px;
+    
+    }
+  
+    .heading{
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .heading-description{
+        color: rgb(174, 175, 175);
+        font-size: 20px;
+        width: 300px;
+      
+    }
+    hr{
+        display: none;
+    }
+    .gamebox{
+        float:left;
+      margin-top: 0px;  
+        margin-top: 20px; 
+        position: relative;
+      left: -160px;
+     
+    width: 200px;
+        
+    }
+    .btn-space{
+       
+        
+    }
+      
+    .gameicon{
+        width: 100px;
+       
+    }
+    .btn-box{
+        margin-left: -200px;
+        margin-top: -100px;
+        background-color: rgba(255, 255, 255, 0.25);
+      
+      border:  rgba(255, 255, 255, 0.25);  
+        
+        
+    }
+    .btn{
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .btn-box{
+
+        position: relative;
+        top: 180px;
+        width: 200px;
+    }
+    
+
+}
